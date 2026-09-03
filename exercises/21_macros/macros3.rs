@@ -8,6 +8,8 @@ mod macros {
     }
 }
 
+use macros::my_macro;
+
 fn main() {
     my_macro!();
 }
